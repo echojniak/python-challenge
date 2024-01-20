@@ -23,7 +23,7 @@ months_list = []
 with open(csvpath) as csvfile:
 
     # CSV reader specifies delimiter and variable that holds contents
-    csvreader = csv.reader(csvfile, delimiter=',')
+    csvreader = csv.reader(csvfile, delimiter=',') 
 
     # Read the header row first (skip this step if there is no header)
     csv_header = next(csvreader)
